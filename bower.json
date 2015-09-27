@@ -1,0 +1,22 @@
+{
+  "name": "Express ES6/ES2015 Browserify SCSS Handlebars Gulp",
+  "version": "1.0.0",
+  "authors": [
+    "nealfennimore <hi@neal.codes>"
+  ],
+  "description": "Scafolding for a new project",
+  "main": "gulpfile.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "http://neal.codes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
