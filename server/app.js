@@ -19,7 +19,9 @@ app.set('views', paths.views);
 app.use(express.static(paths.dist));
 
 app.get('/', function(req, res) {
-    res.render('home');
+    res.render('home', {
+        content: 'I\'m home!'
+    });
 });
 
 app.listen(config.port);
