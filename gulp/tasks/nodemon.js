@@ -6,7 +6,8 @@ module.exports = function (gulp, $, paths, u, cb) {
     var started = false;
 
     $.nodemon({
-            script: paths.server + 'app.js'
+            script: paths.server + 'app.js',
+            ignore: [paths.client]
         })
         .on('start', function onStart() {
             if (!started) {

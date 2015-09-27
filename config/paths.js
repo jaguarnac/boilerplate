@@ -24,6 +24,7 @@ module.exports = {
         dist: dist + '/styles/',
         src: src + '/styles/'
     },
+    client: client,
     server: server,
     views: views,
     test: testDir,
