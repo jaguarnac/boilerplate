@@ -26,6 +26,6 @@ gulp.task('default', ['browserSync'], function() {
     gulp.watch(paths.styles.src + '**/*.scss', ['styles']);
     gulp.watch([paths.scripts.src + '**/*.js'], ['scripts', 'test']);
     gulp.watch([paths.test + '**/*.js'], ['test']);
-    gulp.watch(['bower.json'], ['scripts:vendor']);
+    gulp.watch(['bower.json'], ['scripts.vendor']);
     gulp.watch([paths.views + '**/*.*'], ['browserReload']);
 });
